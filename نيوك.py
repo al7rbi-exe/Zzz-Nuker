@@ -14,7 +14,7 @@ import ctypes
 def set_console_title(title):
     ctypes.windll.kernel32.SetConsoleTitleW(title)
 
-set_console_title("Zzz Nuker | .GG/CODERZ")   
+set_console_title("al7rbi nuler | discord - t1ox acc")   
 
     
 __VERSION__ = '1.7382047493'  
@@ -27,7 +27,7 @@ except:
     
 def get_token():
     global token
-    token = input("\033[38;2;255;225;0mT\033[0m\033[38;2;255;235;0mo\033[0m\033[38;2;255;245;0mk\033[0m\033[38;2;255;255;0me\033[0m\033[38;2;255;205;0mn\033[0m\033[38;2;255;195;0m:\033[0m ")
+    توكن البوت = input("\033[38;2;255;225;0mT\033[0m\033[38;2;255;235;0mo\033[0m\033[38;2;255;245;0mk\033[0m\033[38;2;255;255;0me\033[0m\033[38;2;255;205;0mn\033[0m\033[38;2;255;195;0m:\033[0m ")
     headers = {
         "Authorization": f"Bot {token}"
     }
@@ -219,14 +219,10 @@ async def main():
         
     logo = Center.XCenter(f"""     
 
-      ███████╗███████╗███████╗
-      ╚══███╔╝╚══███╔╝╚══███╔╝
-       ███╔╝   ███╔╝   ███╔╝ 
-      ███╔╝   ███╔╝   ███╔╝  
-      ███████╗███████╗███████╗
-      ╚══════╝╚══════╝╚══════╝
+      
+    MADE B2Y AL7RBI
     ############################
-      mohit.4sure#0 || /CoderZ  
+     DISCORD - t1ox
     ############################             
     """)
     time.sleep(0.0002)
